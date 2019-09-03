@@ -33,3 +33,11 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Vim editor
+*.swp
+
+# Mac files
+.DS_Store
+.AppleDouble
+.LSOverride
