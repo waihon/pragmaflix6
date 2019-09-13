@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flix6</title>
+    <title>Flix on Rails 6</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <h1>Flix on Rails 6</h1>
+    </header>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <footer>
+      Copyright &copy 2016-<%= Time.now.year %>. Flix on Rails 6. All Rights Reserved.
+    </footer>
   </body>
 </html>
