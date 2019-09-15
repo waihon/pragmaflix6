@@ -12,10 +12,10 @@
   <body>
     <header>
       <nav>
-        <%= image_tag "logo" %>
+        <%= link_to image_tag("logo"), root_path %>
         <ul>
           <li>
-            <%= link_to "All Movies", movies_path %>
+            <%= link_to "All Movies", root_path %>
           </li>
         </ul>
       </nav>
