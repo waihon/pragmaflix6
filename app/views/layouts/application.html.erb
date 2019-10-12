@@ -10,21 +10,10 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <%= link_to image_tag("logo"), root_path %>
-        <ul>
-          <li>
-            <%= link_to "All Movies", root_path %>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <%= render "layouts/header" %>
     <div class="content">
       <%= yield %>
     </div>
-    <footer>
-      Copyright &copy 2016-<%= Time.now.year %>. Flix on Rails 6. All Rights Reserved.
-    </footer>
+    <%= render "layouts/footer" %>
   </body>
 </html>
