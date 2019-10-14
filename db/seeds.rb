@@ -136,5 +136,16 @@ Movie.create!([
     released_on: "2017-06-02",
     rating: "PG-13",
     total_gross: 821_847_012
+  },
+  {
+    title: "Batman vs. Godzilla",
+    description:
+    %{
+      An epic battle between The Caped Crusader and the fire-breathing
+      dinosaur Gojira.
+    }.squish,
+    rating: "PG-13",
+    total_gross: 387_623_910,
+    released_on: 365.days.from_now
   }
 ])
