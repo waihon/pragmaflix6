@@ -186,5 +186,18 @@ Movie.create!([
     director: "John Doe",
     duration: "98 min",
     image_file_name: "godzilla-vs-batman.jpg"
+  },
+  {
+    title: "Hulk",
+    description:
+    %{
+      Bruce Banner transforms into a raging green monster when he gets angry.
+    }.squish,
+    released_on: "2003-06-20",
+    rating: "PG-13",
+    total_gross: 113_107_712,
+    director: "Ang Lee",
+    duration: "138 min",
+    image_file_name: "hulk.png"
   }
 ])
