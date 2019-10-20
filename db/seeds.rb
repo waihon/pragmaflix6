@@ -213,5 +213,21 @@ Movie.create!([
     director: "F. Gary Gray",
     duration: "111 min",
     image_file_name: "the-italian-job.jpg"
+  },
+  {
+    title: "Star Wars",
+    description:
+    %{
+      Luke Skywalker joins forces with a Jedi Knight, a cocky pilot,
+      a Wookiee and two droids to save the galaxy from the Empire's
+      world-destroying battle station, while also attempting to rescue
+      Princess Leia from the mysterious Darth Vader.
+    }.squish,
+    released_on: "1997-05-25",
+    rating: "PG",
+    total_gross: 775_512_064,
+    director: "George Lucas",
+    duration: "121 min",
+    image_file_name: "star-wars.jpg"
   }
 ])
