@@ -199,5 +199,19 @@ Movie.create!([
     director: "Ang Lee",
     duration: "138 min",
     image_file_name: "hulk.png"
+  },
+  {
+    title: "The Italian Job",
+    description:
+    %{
+      After being betrayed and left for dead in Italy, Charlie Croker and his
+      team plan an elaborate gold heist against their former ally.
+    }.squish,
+    released_on: "2003-06-01",
+    rating: "PG-13",
+    total_gross: 176_070_171,
+    director: "F. Gary Gray",
+    duration: "111 min",
+    image_file_name: "the-italian-job.jpg"
   }
 ])
