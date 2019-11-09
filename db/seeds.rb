@@ -236,5 +236,6 @@ movie = Movie.find_by(title: "Avengers: Endgame")
 movie.reviews.create!([
   { name: "Larry", stars: 5, comment: "Awesome!" },
   { name: "Daisy", stars: 4, comment: "Great!" },
-  { name: "Moe", stars: 3, comment: "Spilled my popcorn!" }
+  { name: "Moe", stars: 3, comment: "Spilled my popcorn!" },
+  { name: "Lucy", stars 4, comment "Fierce and funny!" }
 ])
